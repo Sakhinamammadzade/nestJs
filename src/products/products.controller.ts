@@ -1,8 +1,6 @@
 import {Body,Controller,Get,Post,Param,Put,Delete,Patch}from '@nestjs/common';
 import { request } from 'http';
 import { createproductRequest } from 'src/models/createProductRequest';
-
-
 import { Product } from 'src/models/product';
 import { ProductService } from './product.service';
 

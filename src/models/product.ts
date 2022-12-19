@@ -1,6 +1,8 @@
 export interface Product{
     id:number;
     name:string;
-    categoryId:number;
     price:number;
+    disCountPrice ?:number,
+    Image:string
+   
 }
