@@ -2,8 +2,8 @@ export interface createproductRequest{
     id:number;
     name:string;
     price:number;
-    disCountPrice ?:number,
-    Image:string
+    disCountPrice?:number | null,
+    image:string
   
 
 }
